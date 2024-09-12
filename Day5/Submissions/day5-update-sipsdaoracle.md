@@ -209,7 +209,7 @@ resource "aws_autoscaling_group" "web" {
 
 # S3 backend configuration
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "your-unique-terraform-state-bucket-name"
+  bucket = "sips-terraform-state-bucket"
 
   lifecycle {
     prevent_destroy = true
