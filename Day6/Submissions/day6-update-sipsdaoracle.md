@@ -5,7 +5,7 @@
 - **Task Completed:** Understanding Terraform State
 - **Date and Time:** 08/31/24 12:34 PM
 
-Terraform state is like a snapshot of your infrastructure which helps Terraform know what resources exist and how to manage them. It's stored in a file, which keeps track of details like resource IDs and dependencies, allowing Terraform to make only the necessary changes when you update your infrastructure. In a team, it's important to store this state remotely (e.g., in AWS S3) so everyone works from the same source and to avoid conflicts. Using remote state with locking ensures that only one person can make changes at a time, preventing issues and making your infrastructure consistent and reliable
+Terraform state is like a snapshot of your infrastructure which helps Terraform know what resources exist and how to manage them. It's stored in a file, which keeps track of details like resource IDs and dependencies, allowing Terraform to make only the necessary changes when you update your infrastructure. In a team, it's important to store this state remotely (e.g., in AWS S3) so everyone works from the same source and to avoid conflicts. Using remote state with locking ensures that only one person can make changes at a time, preventing issues and making your infrastructure consistent and reliable.
 
 ### Terraform Code
 
